@@ -10,7 +10,48 @@
   "onAuthenticate": null,
   "onGetRoles": null,
   "onGetUserSecurables": null,
-  "onGetSecurableViews": null,
+  "onGetSecurableViews": {
+    "type": "server",
+    "blockly": {
+      "namespace": "blockly.Acao",
+      "sourcePath": "src/main/java/blockly/Acao.blockly",
+      "language": "java",
+      "methods": [
+        {
+          "name": "ViewsPermissionavelVendas",
+          "hasReturn": "true",
+          "params": [
+            "securableName",
+            "applicationId"
+          ]
+        },
+        {
+          "name": "ViewsPermissionavelVendas2",
+          "hasReturn": "true",
+          "params": [
+            "securableName",
+            "applicationId"
+          ]
+        }
+      ]
+    },
+    "blocklyMethod": "ViewsPermissionavelVendas",
+    "blocklyClass": "blockly.Acao",
+    "blocklyParams": [
+      {
+        "id": "cd332a86",
+        "name": "securableName",
+        "value": "securableName",
+        "type": "CUSTOM"
+      },
+      {
+        "id": "b67b322e",
+        "name": "applicationId",
+        "value": "applicationId",
+        "type": "CUSTOM"
+      }
+    ]
+  },
   "onGetRoleSecurables": null,
   "onChangePassword": null,
   "onResetPassword": null,
